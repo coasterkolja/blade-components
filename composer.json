@@ -1,0 +1,15 @@
+{
+    "name": "coasterkolja/blade-components",
+    "description": "shadcn-like ui components for laravel blade",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Coasterkolja\\BladeComponents\\": "src/"
+        }
+    },
+    "require": {
+        "php": "*",
+        "feature-ninja/cva": "^0.3.0",
+        "gehrisandro/tailwind-merge-laravel": "^1.2"
+    }
+}

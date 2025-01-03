@@ -8,7 +8,7 @@ use App\Services\ButtonCvaService;
 use App\Services\DialogCvaService;
 use Illuminate\Support\ServiceProvider;
 
-class LaravelLuviServiceProvider extends ServiceProvider
+class BladeComponentsServiceProvider extends ServiceProvider
 {
     protected $components = [
         'accordion',
